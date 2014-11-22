@@ -3,6 +3,7 @@
  */
 package greetings;
 public class HelloWorld {
+    private static int age = 50;
     public static void main(String[] args) {
         System.out.println("Hello World!");
 
@@ -10,10 +11,16 @@ public class HelloWorld {
         String name = "Jonathan";
 
         name ="Kevin";
-
         number = 5 + 2;
+
+        {
+            int age = 25;
+        }
+
+        int age = 20;
 
         System.out.println(number);
         System.out.println(name);
+        System.out.println(age);
     }
 }
